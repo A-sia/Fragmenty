@@ -1,10 +1,10 @@
-body{
-	font-family: Tahoma;
+body {
+	font-family: Tahoma, serif;
 	color: floralwhite;
 	font-size: 3rem;
-	margin: 0px;
-	background: url("tlo6.jpg");
-	 }
+	margin: 0;
+	background: url("tlo2.jpg");
+}
 
 .header {
 	padding-top: 50px;
@@ -14,14 +14,13 @@ body{
 }
 
 .caly {
-	
-	
 	text-align: center;
 }
 
 .day-vers {
 	display: flex;
-	padding-top: 6rem;
+	flex-direction: column;
+	padding: 3rem 1rem 0 1rem;
 	text-align: center;
 	margin: 10px;
 }
@@ -50,23 +49,11 @@ ul.a {
 
 }
 
-/*ul li:before {
-	background: linear-gradient(45deg, #f69ec4,#f9dd94);
-}*/
-
-/*.background {
-	    position: absolute;
-    opacity: 100%;
-    width: 100%;
-    height: 100%;
-    z-index: -2;
-}*/
-
 .black-opp {
 	z-index: -1;
 	width: 100%;
 	position: absolute;
 	height: 100%;
 	background-color: black;
-	opacity: 25%;       /* każde tło na 25%, a kamyki na 45%
+	opacity: 25%;
 }
