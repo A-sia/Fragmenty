@@ -6,18 +6,17 @@ body {
 	background: url("tlo2.jpg");
 }
 
-.header {
+.today-header {
 	padding-top: 50px;
 	font-size: 5rem;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
-.caly {
+.entire-verses {
 	text-align: center;
 }
 
-.day-vers {
+.day-verse {
 	display: flex;
 	flex-direction: column;
 	padding: 3rem 1rem 0 1rem;
@@ -25,7 +24,7 @@ body {
 	margin: 10px;
 }
 
-.odnosnik {
+.reference {
 	font-size: 2rem;
 	text-align: right;
 	padding: 2rem;
